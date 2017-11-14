@@ -175,7 +175,7 @@ void mobilityStateMachine(const ros::TimerEvent &)
     {
         if (transitions_to_auto == 0)
         {
-            // This is the first time we have clicked the Autonomous Button. Log the time and increment the counter.
+            // This is the first time we have cliccd staked the Autonomous Button. Log the time and increment the counter.
             transitions_to_auto++;
             time_stamp_transition_to_auto = ros::Time::now().toSec();
         }
